@@ -1,34 +1,30 @@
-#create-acc2
-{
+#create-acc2 {
   /* Layout Properties */
 
-top: 143px;
-left: 763px;
-width: 229px;
-height: 31px;
+  top: 143px;
+  left: 763px;
+  width: 229px;
+  height: 31px;
 
-/* UI Properties */
+  /* UI Properties */
 
-text-align: center;
-font: normal normal 600 26px/31px Golos Text;
-letter-spacing: 0px;
-color: #333333;
-opacity: 1;
+  text-align: center;
+  font: normal normal 600 26px/31px Golos Text;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
 }
-.logo
-{
+.logo {
   top: 15px;
-left: 52px;
-width: 166px;
-height: 40px;
+  left: 52px;
+  width: 166px;
+  height: 40px;
 
-/* UI Properties */
+  /* UI Properties */
 
-background: transparent url('img/Group 3.png') 0% 0% no-repeat padding-box;
-opacity: 1;
+  background: transparent url("img/Group 3.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
-
-
 
 #username {
   margin-top: 15px;
@@ -62,28 +58,55 @@ opacity: 1;
   border-radius: 10px;
   opacity: 1;
 }
-#col1 #basicTic
-{
+#col1 #basicTic {
+  width: 40px;
+  height: 40px;
 
-width: 40px;
-height: 40px;
-
-background: #398AD6 0% 0% no-repeat padding-box;
-opacity: 1;
-border-radius: 20px;
+  background: #398ad6 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 20px;
 }
-#col1 #basicTic img{
-/* Layout Properties */
+#basicTic #basicimg1 {
+  /* Layout Properties */
 
-width: 21px;
-height: 15px;
+  width: 21px;
+  height: 15px;
 
-/* UI Properties */
+  /* UI Properties */
 
-background: #398AD6;
-opacity: 1;
+  background: #398ad6;
+  opacity: 1;
+}
+#col1 #basicTic #basicimg2 {
+  /* Layout Properties */
+
+  top: 150px;
+  left: 408px;
+  width: 6px;
+  height: 10px;
+  align-content: right;
+
+  /* UI Properties */
+
+  background: 0% 0% no-repeat padding-box;
+
+  opacity: 1;
+}
+.round {
+  top: 213px;
+  left: 124px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  /* UI Properties */
+  color: white;
+
+  background: #bbbbbb 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
 
+#boximg2 {
+}
 
 .box {
   top: 134px;
@@ -106,21 +129,20 @@ opacity: 1;
 
   opacity: 1;
 }
-#col2 button
-{
+#col2 button {
   left: 710px;
   background-color: white;
-  border-color:#E6E6E6;
+  border-color: #e6e6e6;
 
-top: 202px;
-left: 887px;
-width: 213px;
-height: 44px;
+  top: 202px;
+  left: 887px;
+  width: 213px;
+  height: 44px;
 
-background: #FFFFFF 0% 0% no-repeat padding-box;
-box-shadow: 0px 0px 8px #ADADAD29;
-border-radius: 6px;
-opacity: 1;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 8px #adadad29;
+  border-radius: 6px;
+  opacity: 1;
 }
 
 .social-login button {
@@ -192,11 +214,4 @@ img {
   letter-spacing: 0px;
   color: #394649;
   opacity: 1;
-}
-
-#continue {
-  top: 1125px;
-  left: 521px;
-  width: 300px;
-  height: 55px;
 }
